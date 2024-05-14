@@ -25,6 +25,22 @@
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Ce projet est une API REST simple construite avec NestJS pour la gestion des types d'utilisateurs dans une base de données MySQL. L'API permet la création de différents types d'utilisateurs avec la possibilité de définir leur statut en public ou non, ainsi que de récupérer les détails des types d'utilisateurs publics
+## Fonctionnalités principales
+Création de types d'utilisateurs : Permet aux utilisateurs de créer différents types d'utilisateurs avec des paramètres spécifiques.
+Mise en public ou non : Les utilisateurs peuvent choisir de rendre leurs types d'utilisateurs publics ou non.
+Récupération des types d'utilisateurs publics : Endpoint pour récupérer les détails des types d'utilisateurs publics.
+
+## Technologies utilisées
+NestJS : Framework Node.js pour la construction d'applications server-side efficaces et évolutives.
+MySQL : Système de gestion de base de données relationnelle pour le stockage des données.
+TypeORM : ORM (Object-Relational Mapping) pour Node.js et TypeScript, utilisé pour faciliter l'interaction avec la base de données MySQL.
+REST API : Architecture RESTful pour l'exposition des fonctionnalités de l'API.
+
+## Configuration requise
+Node.js >= 12
+npm (ou yarn)
+MySQL Server
 
 ## Installation
 
